@@ -1,0 +1,114 @@
+html{
+    font-size: 62.5%;
+  }
+  h2{
+    font-size: 2.2rem;
+    color: #EA4F4F;
+  }
+  main{
+    font-size: 1rem;
+    
+  }
+  header{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .1rem solid #020202;
+  }
+  header h2{
+    color: #EA4F4F;
+    padding: 1rem;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li{
+    margin: 1rem;
+    font-size: 1.8rem;
+  }
+  a{
+    text-decoration: none;
+    color: #020202;
+    transition: 0.4s;
+  }
+  a:hover{
+    color: #EA4F4F;
+  }
+  header nav ul li button{
+      cursor: pointer;
+      border: 0;
+      border-radius: 4px;
+      font-weight: 600;
+      margin: 0 10px;
+      width: 200px;
+      padding: 10px 0;
+      box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+      transition: 0.4s;
+  }
+  .btnUp{
+    color: #020202;
+    background-color: #EA4F4F;
+  }
+  .btnIn{
+    color: #EA4F4F;
+    background-color: #fff;
+    border: 1px solid #EA4F4F;
+  }
+  button:hover {
+    color: #020202;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: #EA4F4F;
+  }
+  .mapsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  .firstSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+  }
+  .subFirstSection{
+    margin: 1rem;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #020202;
+  }
+  
+  .subFirstSection h2, .subSecondSection h2{
+    align-self: flex-start;
+    text-decoration: underline;
+    padding-left: 1rem;
+  }
+  .subSecondSection{
+    margin: 1rem;
+    width: 100%;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #020202;
+  } 
+  .subSecondSection ul{
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  footer{
+    background-color: #D9D9D9;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
